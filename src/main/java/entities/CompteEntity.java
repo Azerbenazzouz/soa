@@ -1,18 +1,18 @@
-package entites;
+package entities;
 
 import java.util.Date;
 
-public class compteEntite{
+public class CompteEntity {
      private int code;
      private Date dateCreation;
      private double solde;
 
-    public compteEntite(int code) {
+    public CompteEntity(int code) {
         this.code = code;
         this.dateCreation = new Date();
     }
 
-    public compteEntite(int code, double solde) {
+    public CompteEntity(int code, double solde) {
         this.code = code;
         this.solde = solde;
         this.dateCreation = new Date();
